@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@腾讯云clickhouse">
   <database-model serializer="dbm" dbms="CLICKHOUSE" family-id="CLICKHOUSE" format-version="4.51">
-    <root id="1">
-      <ServerVersion>22.1.3.7</ServerVersion>
-    </root>
+    <root id="1"/>
     <routine id="2" parent="1" name="logTrace"/>
     <routine id="3" parent="1" name="aes_decrypt_mysql"/>
     <routine id="4" parent="1" name="aes_encrypt_mysql"/>

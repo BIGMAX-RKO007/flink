@@ -1702,3 +1702,84 @@
 01:50:43.698 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
 01:50:44.049 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
 01:50:44.049 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:12:55.953 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:12:57.572 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:12:57.573 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:12:57.925 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:12:57.925 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:51:05.884 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:51:07.542 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:51:07.543 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:51:07.900 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:51:07.900 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:51:08.337 [Source: Custom File Source (1/1)#0] WARN  o.a.flink.runtime.taskmanager.Task - Source: Custom File Source (1/1)#0 (cde21018923c6e2815b10a080e55e6ff_bc764cd8ddf7a0cff126f51c16239658_0_0) switched from RUNNING to FAILED with failure cause:
+java.io.FileNotFoundException: The provided file path D:/path/file.txt does not exist.
+	at org.apache.flink.streaming.api.functions.source.ContinuousFileMonitoringFunction.run(ContinuousFileMonitoringFunction.java:216)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:110)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:67)
+	at org.apache.flink.streaming.runtime.tasks.SourceStreamTask$LegacySourceFunctionThread.run(SourceStreamTask.java:333)
+03:53:01.426 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:53:03.055 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:53:03.055 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:53:03.413 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:53:03.413 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:53:03.860 [Source: Custom File Source (1/1)#0] WARN  o.a.flink.runtime.taskmanager.Task - Source: Custom File Source (1/1)#0 (8b6341c5edd4b7967f7d03532b88f110_bc764cd8ddf7a0cff126f51c16239658_0_0) switched from RUNNING to FAILED with failure cause:
+java.io.FileNotFoundException: The provided file path D:/path/file.txt does not exist.
+	at org.apache.flink.streaming.api.functions.source.ContinuousFileMonitoringFunction.run(ContinuousFileMonitoringFunction.java:216)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:110)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:67)
+	at org.apache.flink.streaming.runtime.tasks.SourceStreamTask$LegacySourceFunctionThread.run(SourceStreamTask.java:333)
+03:54:26.025 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:54:27.643 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:54:27.644 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:54:27.993 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:54:27.993 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:54:28.418 [Source: Custom File Source (1/1)#0] WARN  o.a.flink.runtime.taskmanager.Task - Source: Custom File Source (1/1)#0 (66e0c4cee054df54d907c402bcae5ac0_bc764cd8ddf7a0cff126f51c16239658_0_0) switched from RUNNING to FAILED with failure cause:
+java.io.FileNotFoundException: The provided file path D:/path/file.txt does not exist.
+	at org.apache.flink.streaming.api.functions.source.ContinuousFileMonitoringFunction.run(ContinuousFileMonitoringFunction.java:216)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:110)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:67)
+	at org.apache.flink.streaming.runtime.tasks.SourceStreamTask$LegacySourceFunctionThread.run(SourceStreamTask.java:333)
+03:55:11.783 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:55:13.416 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:55:13.417 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:55:13.766 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:55:13.767 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:55:14.181 [Source: Custom File Source (1/1)#0] WARN  o.a.flink.runtime.taskmanager.Task - Source: Custom File Source (1/1)#0 (d2cf785606b9e920d19d7bace1357a43_bc764cd8ddf7a0cff126f51c16239658_0_0) switched from RUNNING to FAILED with failure cause:
+java.io.FileNotFoundException: The provided file path D:/path/file.txt does not exist.
+	at org.apache.flink.streaming.api.functions.source.ContinuousFileMonitoringFunction.run(ContinuousFileMonitoringFunction.java:216)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:110)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:67)
+	at org.apache.flink.streaming.runtime.tasks.SourceStreamTask$LegacySourceFunctionThread.run(SourceStreamTask.java:333)
+03:55:45.412 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:55:47.052 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:55:47.053 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:55:47.403 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:55:47.404 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:55:47.836 [Source: Custom File Source (1/1)#0] WARN  o.a.flink.runtime.taskmanager.Task - Source: Custom File Source (1/1)#0 (44e01e688e860f649cc18ebaa755076f_bc764cd8ddf7a0cff126f51c16239658_0_0) switched from RUNNING to FAILED with failure cause:
+java.io.FileNotFoundException: The provided file path d:/path/file.txt does not exist.
+	at org.apache.flink.streaming.api.functions.source.ContinuousFileMonitoringFunction.run(ContinuousFileMonitoringFunction.java:216)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:110)
+	at org.apache.flink.streaming.api.operators.StreamSource.run(StreamSource.java:67)
+	at org.apache.flink.streaming.runtime.tasks.SourceStreamTask$LegacySourceFunctionThread.run(SourceStreamTask.java:333)
+03:58:46.866 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:58:48.518 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:58:48.519 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:58:48.875 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:58:48.875 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:59:31.611 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:59:33.251 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:59:33.252 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:59:33.602 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:59:33.603 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+03:59:52.514 [main] WARN  org.example.flink.FlinkList - this a data is :[1, 22, 3]
+03:59:54.159 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+03:59:54.160 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+03:59:54.510 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+03:59:54.511 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+04:06:26.534 [main] WARN  org.example.flink.FlinkList - 当测试数据是List :[1, 22, 3]
+04:06:26.536 [main] WARN  org.example.flink.FlinkList - 当测试数据是windowsFilePath :input/word.txt
+04:06:28.172 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+04:06:28.173 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+04:06:28.522 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+04:06:28.522 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date

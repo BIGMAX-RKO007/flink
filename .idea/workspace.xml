@@ -5,35 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b04a7f4-2597-422c-bffe-28c500c8a2f0" name="更改" comment="flinkdao01">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8cda5060-6f2b-4a0a-812f-587527369dae.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8cda5060-6f2b-4a0a-812f-587527369dae/storage_v2/_src_/schema/system.L3Icyw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/README_TO_RECOVER_A.MzLTrQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/RECOVER_YOUR_DATA.-w4BIg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/db1.c4MBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapp.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/flinkday01/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/flinkday01/org/example/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/flinkday01/org/example/flink/FlinkList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/flinkday01/org/example/flink/flinksocket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/flinkday01/org/example/pojo/WaterSensor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/FlinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/flinksocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pojo/WaterSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-0/partition.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka1/data/test001-1/partition.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/.kafka_cleanshutdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-1/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-1/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-1/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-1/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-1/partition.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka2/data/test001-2/partition.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/cleaner-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/log-start-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/meta.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/recovery-point-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/replication-offset-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-0/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-0/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-0/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-0/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-0/partition.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-2/00000000000000000000.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-2/00000000000000000000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-2/00000000000000000000.timeindex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-2/leader-epoch-checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/kafka3/data/test001-2/partition.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk1/data/myid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk1/data/version-2/acceptedEpoch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk1/data/version-2/currentEpoch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk1/data/version-2/snapshot.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk1/data/version-2/snapshot.100000000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk1/logs/version-2/log.100000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk2/data/myid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk2/data/version-2/acceptedEpoch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk2/data/version-2/currentEpoch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk2/data/version-2/snapshot.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk2/logs/version-2/log.100000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk3/data/myid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk3/data/version-2/acceptedEpoch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk3/data/version-2/currentEpoch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk3/data/version-2/snapshot.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/data/zk3/logs/version-2/log.100000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/source/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/source/DataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/source/impl/CollectionDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/source/impl/FileDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/source/impl/KafkaDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/source/impl/SocketDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8cda5060-6f2b-4a0a-812f-587527369dae.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8cda5060-6f2b-4a0a-812f-587527369dae.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9825b0fe-da5c-4943-b633-e4d511f9f564.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/myapp.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/flink/FlinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/flink/FlinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +141,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Docker.docker-compose.yml: Compose 部署.executor": "Run",
+    "Docker.docker.kafka1: Compose 部署.executor": "Run",
+    "Docker.docker.kafka2: Compose 部署.executor": "Run",
+    "Docker.docker.kafka3: Compose 部署.executor": "Run",
+    "Docker.docker.zk1: Compose 部署.executor": "Run",
+    "Docker.docker.zk3: Compose 部署.executor": "Run",
+    "Docker.docker: Compose 部署.executor": "Run",
+    "Docker.kafka-compose.yml: Compose 部署.executor": "Run",
+    "Docker.zookeeper-compose.yml.kafka2: Compose 部署.executor": "Run",
+    "Docker.zookeeper-compose.yml: Compose 部署.executor": "Run",
     "Maven.flinkday01 [clean].executor": "Run",
     "Maven.flinkday01 [compile].executor": "Run",
     "Maven.flinkday01 [install].executor": "Run",
@@ -97,7 +159,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "flink",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/IdeaProjects/flinkday01",
@@ -120,66 +182,80 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="应用程序.FlinkList">
-    <configuration name="FlinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flink.FlinkList" />
-      <module name="flinkday01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.flink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="flinkday01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="flinksocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.flink.flinksocket" />
-      <module name="flinkday01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.flink.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\flinkday01\docker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker: Compose 部署">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yml: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="docker: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
+          <option name="sourceFilePath" value="docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker.kafka1: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="kafka1" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker.kafka2: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="kafka2" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker.kafka3: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="kafka3" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="zookeeper-compose.yml: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="zookeeper-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.FlinkList" />
-        <item itemvalue="应用程序.flinksocket" />
-        <item itemvalue="Docker.docker-compose.yml: Compose 部署" />
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="Docker.docker: Compose 部署" />
+        <item itemvalue="Docker.zookeeper-compose.yml: Compose 部署" />
+        <item itemvalue="Docker.docker.kafka3: Compose 部署" />
+        <item itemvalue="Docker.docker.kafka2: Compose 部署" />
+        <item itemvalue="Docker.docker.kafka1: Compose 部署" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +286,12 @@
       <workItem from="1711551266987" duration="1039000" />
       <workItem from="1711730939232" duration="280000" />
       <workItem from="1711731230587" duration="6071000" />
-      <workItem from="1711816794567" duration="642000" />
+      <workItem from="1711816794567" duration="11186000" />
+      <workItem from="1711853047287" duration="4692000" />
+      <workItem from="1711893082228" duration="2732000" />
+      <workItem from="1712579642728" duration="6463000" />
+      <workItem from="1712667076416" duration="4973000" />
+      <workItem from="1712753376836" duration="4731000" />
     </task>
     <task id="LOCAL-00001" summary="flinkdao01">
       <option name="closed" value="true" />
@@ -250,6 +331,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
