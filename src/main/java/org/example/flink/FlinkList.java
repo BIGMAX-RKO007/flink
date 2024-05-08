@@ -24,8 +24,12 @@ public class FlinkList {
         logger.warn("当测试数据是List :"+data);
         String windowsFilePath = "input/word.txt";
         logger.warn("当测试数据是windowsFilePath :"+windowsFilePath);
+
+        String brokers = "127.0.0.1:29092,127.0.0.1:29093,127.0.0.1:29094";
+        String topic = "test001";
+        String groupId = "my";
         //todo 数据源
-        DataStreamSource<T> DataSource = (DataStreamSource<T>) DataSourceFactory.createDataSource("file", windowsFilePath).getSource(env);
+        DataStreamSource<T> DataSource = (DataStreamSource<T>) DataSourceFactory.createDataSource("kafka", brokers,topic,groupId).getSource(env);
 
         DataSource.print();
         env.execute();

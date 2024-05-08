@@ -1783,3 +1783,49 @@ java.io.FileNotFoundException: The provided file path d:/path/file.txt does not 
 04:06:28.173 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
 04:06:28.522 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
 04:06:28.522 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+23:21:07.844 [main] WARN  org.example.flink.FlinkList - 当测试数据是List :[1, 22, 3]
+23:21:07.847 [main] WARN  org.example.flink.FlinkList - 当测试数据是windowsFilePath :input/word.txt
+23:21:09.650 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+23:21:09.650 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+23:21:09.986 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+23:21:09.986 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+23:21:10.272 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'key.deserializer' was supplied but isn't a known config.
+23:21:10.272 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'value.deserializer' was supplied but isn't a known config.
+23:21:10.272 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+23:21:10.272 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'group.id' was supplied but isn't a known config.
+23:21:10.272 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:21:10.272 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+23:21:10.272 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'auto.offset.reset' was supplied but isn't a known config.
+23:21:10.694 [Source: kafka-source -> Sink: Print to Std. Out (2/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:21:10.694 [Source: kafka-source -> Sink: Print to Std. Out (2/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+23:21:10.694 [Source: kafka-source -> Sink: Print to Std. Out (4/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:21:10.694 [Source: kafka-source -> Sink: Print to Std. Out (3/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:21:10.694 [Source: kafka-source -> Sink: Print to Std. Out (4/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+23:21:10.694 [Source: kafka-source -> Sink: Print to Std. Out (3/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+23:22:11.957 [main] WARN  org.example.flink.FlinkList - 当测试数据是List :[1, 22, 3]
+23:22:11.960 [main] WARN  org.example.flink.FlinkList - 当测试数据是windowsFilePath :input/word.txt
+23:22:13.582 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+23:22:13.583 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+23:22:13.893 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+23:22:13.893 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+23:22:14.128 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'key.deserializer' was supplied but isn't a known config.
+23:22:14.128 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'value.deserializer' was supplied but isn't a known config.
+23:22:14.128 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'enable.auto.commit' was supplied but isn't a known config.
+23:22:14.128 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'group.id' was supplied but isn't a known config.
+23:22:14.128 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:22:14.128 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+23:22:14.128 [SourceCoordinator-Source: kafka-source] WARN  o.a.k.c.admin.AdminClientConfig - The configuration 'auto.offset.reset' was supplied but isn't a known config.
+23:22:14.553 [Source: kafka-source -> Sink: Print to Std. Out (3/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:22:14.553 [Source: kafka-source -> Sink: Print to Std. Out (2/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:22:14.553 [Source: kafka-source -> Sink: Print to Std. Out (3/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+23:22:14.553 [Source: kafka-source -> Sink: Print to Std. Out (4/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'client.id.prefix' was supplied but isn't a known config.
+23:22:14.553 [Source: kafka-source -> Sink: Print to Std. Out (2/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+23:22:14.553 [Source: kafka-source -> Sink: Print to Std. Out (4/16)#0] WARN  o.a.k.c.consumer.ConsumerConfig - The configuration 'partition.discovery.interval.ms' was supplied but isn't a known config.
+22:04:54.591 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+22:04:54.595 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+22:04:54.941 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+22:04:54.942 [flink-akka.actor.default-dispatcher-5] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
+22:05:19.913 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - Log file environment variable 'log.file' is not set.
+22:05:19.916 [main] WARN  o.a.f.r.webmonitor.WebMonitorUtils - JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'web.log.path'.
+22:05:20.229 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - No tokens obtained so skipping listener notification
+22:05:20.229 [flink-akka.actor.default-dispatcher-4] WARN  o.a.f.r.s.t.DefaultDelegationTokenManager - Tokens update task not started because either no tokens obtained or none of the tokens specified its renewal date
